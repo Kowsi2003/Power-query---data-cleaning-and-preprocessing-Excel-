@@ -1,4 +1,4 @@
-Power Query – Data Cleaning, Transformation, and Merging Project
+# **Power Query – Data Cleaning, Transformation, and Merging Project**
 
 ### **Project Overview**
 
