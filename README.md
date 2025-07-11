@@ -1,90 +1,82 @@
-# **Power Query – Data Cleaning, Transformation, and Merging Project**
+# 📊 Power Query Excel Project: Data Cleaning, Transformation, and Merging
 
-### **Project Overview**
+## 🚀 Project Summary
 
-This project demonstrates **practical data cleaning, transformation, and merging using Power Query in Excel** across two structured tasks:
+This project demonstrates **practical data preparation in Excel using Power Query** through:
 
+1️⃣ **Pizza Sales Dataset** – Cleaning and transforming messy raw sales data for analysis.
 
-1️⃣ **Cleaning and transforming a pizza sales dataset**
+2️⃣ **Maven Market Sales Dataset** – Merging multi-year transaction data into a unified analysis-ready dataset.
 
-2️⃣ **Merging sales transaction datasets for consolidated analysis**
-
----
-
-### **Project Structure**
-
-#### **1️⃣ Pizza Sales Dataset (Cleaning and Transformation)**
-
-**Location:**
-`data cleaning and preprocessing - power...` along with `pizzas`, `pizza_types`, `orders`, `order_details`
-
-**What was done:**
-
-✅ Imported multiple raw Excel datasets into Power Query.
-
-✅ Removed unnecessary columns and filtered irrelevant rows.
-
-✅ Changed data types for consistency (dates, numbers).
-
-✅ Inserted custom columns for derived fields (e.g., extracting month/year).
-
-✅ Cleaned column names and standardized formatting.
-
-✅ Sorted and structured data for analysis-ready output.
-
-✅ Loaded cleaned data for easy PivotTable/Power Pivot analysis.
+Both projects produce **final cleaned datasets** in structured Excel files ready for PivotTable, Power Pivot, or dashboard analysis.
 
 ---
 
-#### **2️⃣ Maven Market Sales Dataset (Merging)**
+## 1️⃣ Pizza Sales Dataset: Cleaning & Transformation
 
-**Location:**
-`dataset merge - power query` along with `MavenMarket_Transactions_1997`, `MavenMarket_Transactions_1998`
+### 📂 Files:
 
-**What was done:**
+* [`data cleaning and preprocessing - power query.xlsx`](pizza%20sales/data%20cleaning%20and%20preprocessing%20-%20power%20query.xlsx) (**✅ Final cleaned dataset**)
+* [`order_details.csv`](pizza%20sales/order_details.csv)
+* [`orders.csv`](pizza%20sales/orders.csv)
+* [`pizza_types.csv`](pizza%20sales/pizza_types.csv)
 
-✅ Imported 1997 and 1998 transaction datasets into Power Query.
+### 🛠️ What Was Done:
 
-✅ Cleaned column names for consistency before merging.
-
-✅ Used **Append Queries** in Power Query to merge the two datasets into a single consolidated dataset.
-
-✅ Verified and removed duplicates post-merge.
-
-✅ Ensured consistent data types across merged columns.
-
-✅ Loaded the merged dataset into Excel for seamless analysis.
-
----
-
-### **Tools Used**
-
-✅ **Power Query (Get & Transform Data in Excel)** for systematic cleaning, transformation, and merging.
-
-✅ **Excel** for reviewing, verifying, and preparing data for analysis.
+* Imported multiple CSV files into Power Query.
+* Filtered irrelevant and incomplete rows.
+* Removed unnecessary columns.
+* Standardized and corrected data types (dates, numbers, text).
+* Renamed columns for clarity and consistency.
+* Added calculated columns for enhanced analysis (e.g., extracting year, month).
+* Sorted and structured data, then loaded to the **final output Excel file**.
 
 ---
 
-### **Skills Practiced**
+## 2️⃣ Maven Market Sales Dataset: Merging Multi-Year Data
 
-✅ Data cleaning and preprocessing
+### 📂 Files:
 
-✅ Column management and filtering
+* [`dataset merge - power query.xlsx`](market_sales/dataset%20merge%20-%20power%20query.xlsx) (**✅ Final merged dataset**)
+* [`MavenMarket_Transactions_1997.csv`](market_sales/MavenMarket_Transactions_1997.csv)
+* [`MavenMarket_Transactions_1998.csv`](market_sales/MavenMarket_Transactions_1998.csv)
 
-✅ Data type handling and transformations
+### 🛠️ What Was Done:
 
-✅ Dataset merging using Power Query
-
-✅ Preparing structured datasets for analysis
+* Imported 1997 and 1998 transaction data into Power Query.
+* Cleaned and standardized column names and data types.
+* Appended both datasets to create a single unified dataset.
+* Verified data integrity, removed duplicates, and ensured consistency.
+* Loaded the consolidated dataset into the **final output Excel file** for analysis.
 
 ---
 
-### **Next Steps**
+## 💡 Skills Practiced
 
-🔹 Use the cleaned pizza sales dataset for sales trend analysis, product performance, and customer order patterns.
+✅ Using Power Query for **data cleaning and transformation**
 
-🔹 Analyze the consolidated Maven Market sales data to identify yearly sales patterns, top products, and regional performance.
+✅ Filtering, column management, and type consistency
 
-🔹 Practice advanced Power Query transformations (grouping, unpivoting, conditional logic) for future projects.
+✅ Merging datasets using append queries
 
-🔹 Integrate these cleaned datasets with **Power Pivot** for advanced DAX-based analysis and interactive dashboards.
+✅ Adding calculated columns for analysis-ready structure
+
+✅ Preparing clean data pipelines in Excel for analytics workflows
+
+---
+
+## 📈 Next Steps
+
+* Perform sales trend, customer, and product analysis using the final cleaned datasets.
+* Practice DAX with these datasets in Power Pivot for advanced analytics.
+* Build PivotTables and interactive dashboards for reporting.
+* Automate refresh pipelines for handling recurring data updates.
+
+---
+
+## 🛠️ Tools Used
+
+* **Power Query (Excel Get & Transform)** – for cleaning, merging, and structuring data.
+* **Excel** – for final data validation and analysis preparation.
+
+---
